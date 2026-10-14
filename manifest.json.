@@ -1,0 +1,12 @@
+
+{
+  "name": "PraceCZ — Работа в Чехии",
+  "short_name": "PraceCZ",
+  "description": "Поиск работы в Чехии и калькулятор зарплаты",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080b12",
+  "theme_color": "#5187ff",
+  "lang": "ru"
+}
