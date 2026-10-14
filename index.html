@@ -206,8 +206,15 @@ footer strong{color:white}
  .job-bottom .btn{padding:9px;font-size:12px}
 }
 </style>
-</head>
-<body>
+</head><link rel="manifest" href="/manifest.json">
+<body><script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/sw.js")
+      .catch(console.error);
+  });
+}
+</script>
 <header>
   <div class="container nav">
     <a class="logo" href="#" aria-label="PraceCZ">
